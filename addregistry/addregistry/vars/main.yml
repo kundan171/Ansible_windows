@@ -1,0 +1,4 @@
+---
+# vars file for addregistry
+# to change the data WU server registry key
+registry_key: https://:8531
