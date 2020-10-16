@@ -1,0 +1,8 @@
+---
+
+-  name: Inbound and Outbound Rule Creation
+   hosts: all
+   gather_facts: false
+   
+   roles:
+     - Createinboundoutboundwindowsrule

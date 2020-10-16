@@ -1,0 +1,24 @@
+---
+
+- name: Firewall rule to allow WSUS Inbound on TCP port 8530 and 8531
+  win_firewall_rule:
+    name: WSUS INBOUND
+    localport: '8530,8531'
+    description: WSUS INBOUND
+    action: allow
+    direction: in
+    protocol: tcp
+    state: present
+    enabled: yes
+
+- name: Firewall rule to allow WSUS Outbound on TCP port 8530 and 8531
+  win_firewall_rule:
+    name: WSUS
+    localport: '8530,8531'
+    description: WSUS OUTBOUND
+    action: allow
+    direction: out
+    protocol: tcp
+    state: present
+    enabled: yes
+

@@ -1,0 +1,4 @@
+---
+# vars file for Createinboundoutbound
+# below is the path were result file will be copy the result.
+ RESULTS: /home/kundan/windows/ansible/ansible/createinboundoutbond

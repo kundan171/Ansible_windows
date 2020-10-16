@@ -1,0 +1,3 @@
+---
+# tasks file for Createinboundoutbound
+- include: Createinboundoutboundwindowsrule.yml
