@@ -1,0 +1,10 @@
+---
+# Install and reboot if required
+  
+- name: Install update
+  win_updates:
+    state: installed
+    server_selection: managed_server
+    log_path: 'c:/ansible_wu.txt'
+    reboot: yes
+

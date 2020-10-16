@@ -1,0 +1,9 @@
+---
+# playbook for to call task
+
+- hosts: all
+  gather_facts: false
+
+  roles: 
+    - installupdate
+
