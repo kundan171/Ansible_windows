@@ -1,0 +1,9 @@
+---
+# vars file for addentery
+# To get the result out put of command execution is define here.
+# host name detail.
+hostname: 
+
+# host ip address.
+serverip: 
+

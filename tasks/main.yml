@@ -1,0 +1,3 @@
+---
+# tasks file for addentery
+- include: addhostfile.yml

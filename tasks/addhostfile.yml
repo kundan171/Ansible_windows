@@ -1,0 +1,11 @@
+---
+# Host file entry on encpoints
+
+- name: Add host file entry for the wsus server name
+  win_hosts:
+    state: present
+    canonical_name: "{{ hostname }}"
+    ip_address: "{{ serverip }}"
+    action: add
+  become_method: runas
+  become_user: Administrator

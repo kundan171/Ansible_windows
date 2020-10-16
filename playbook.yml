@@ -1,0 +1,11 @@
+---
+
+-  name: Importing Hosts entry file
+   hosts: all
+   gather_facts: false
+   
+   vars:
+     - vars/main.yml
+   
+   roles:
+     - addhostfile
