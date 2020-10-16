@@ -1,10 +1,10 @@
 ---
--  name: Importing Hosts entry file
+-  name: Consolidate one to execute all the command realted to all windows update
    hosts: all
    gather_facts: false
    
    vars:
      - vars/main.yml
-   
+     
    roles:
-     - addhostfile
+      - addregistry
